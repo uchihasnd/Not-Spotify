@@ -56,8 +56,9 @@ div .table {
   font-weight: 300;
 }
 
-td {
-  align-items: center;
+img .table-album-cover {
+  width: 40px;
+  height: 40px;
 }
 
 .button-favorites {
