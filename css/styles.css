@@ -56,7 +56,7 @@ div .table {
   font-weight: 300;
 }
 
-img .table-album-cover {
+.table-album-cover {
   width: 40px;
   height: 40px;
 }
@@ -91,6 +91,11 @@ img .table-album-cover {
     rgba(9, 9, 121, 0.40379901960784315) 100%,
     rgba(0, 212, 255, 0) 100%
   );
+}
+
+.card-album-cover {
+  width: 158px;
+  height: 158px;
 }
 a {
   text-decoration: none;
