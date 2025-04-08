@@ -46,19 +46,34 @@ body {
   margin: 0 auto;
 }
 
-div .table {
+.div-songs-table {
   width: 100%;
   display: grid;
   align-items: center;
 }
 
+.songs-table {
+  border-collapse: collapse;
+}
+
+.song-row {
+  align-items: center;
+  justify-items: left;
+}
+
+.song-row:hover {
+  background-color: #211C84;
+}
+
 .header-table {
   font-weight: 300;
+  align-items: center;
 }
 
 .table-album-cover {
   width: 40px;
   height: 40px;
+  border-radius: 5px;
 }
 
 .button-favorites {
@@ -84,30 +99,25 @@ div .table {
 }
 
 .card:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 0.7175245098039216) 54%,
-    rgba(9, 9, 121, 0.40379901960784315) 100%,
-    rgba(0, 212, 255, 0) 100%
-  );
+  background-color: #211C84;
 }
 
 .card-album-cover {
   width: 158px;
   height: 158px;
+  border-radius: 5px;
 }
 a {
   text-decoration: none;
   color: #ffffff;
 }
 
-div .content {
+.card-content {
   font-size: 1.5rem;
   font-weight: 300;
 }
 
-div .details {
+.card-details {
   font-size: 1.2rem;
   font-weight: 200;
 }
